@@ -8,16 +8,6 @@
   },
   "license": "MIT",
   "repository": "https://github.com/hienlpv/laravel-livewire-ai-plugin",
-  "keywords": [
-    "laravel",
-    "livewire",
-    "php",
-    "tailwind",
-    "pest",
-    "multi-agent",
-    "orchestration"
-  ],
-  "agents": [
-    "./agents"
-  ]
+  "keywords": ["laravel", "livewire", "php", "tailwind", "pest", "multi-agent", "orchestration"],
+  "agents": ["./agents"]
 }
