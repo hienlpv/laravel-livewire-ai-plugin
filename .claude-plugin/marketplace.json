@@ -1,0 +1,24 @@
+{
+  "name": "laravel-livewire-plugins",
+  "description": "Multi-agent Copilot plugins for PHP Laravel 11 + Livewire v3 development",
+  "owner": {
+    "name": "hienlpv",
+    "url": "https://github.com/hienlpv"
+  },
+  "plugins": [
+    {
+      "name": "laravel-livewire-plugin",
+      "source": ".",
+      "description": "Multi-agent Copilot plugin for PHP Laravel 11 + Livewire v3 development. Provides an orchestrator and specialist sub-agents (Laravel Architect, Livewire Expert, Pest Tester, Tailwind UI).",
+      "version": "1.0.0",
+      "author": {
+        "name": "hienlpv"
+      },
+      "homepage": "https://github.com/hienlpv/laravel-livewire-ai-plugin",
+      "repository": "https://github.com/hienlpv/laravel-livewire-ai-plugin",
+      "license": "MIT",
+      "keywords": ["laravel", "livewire", "php", "tailwind", "pest", "agents"],
+      "category": "productivity"
+    }
+  ]
+}
