@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "read_file",
+  "name": "read_file",
+  "displayName": "Read Laravel File",
+  "description": "Read the contents of any file within the Laravel project. Use this to inspect existing migrations, models, components, views, or config files before generating code.",
+  "parameters": {
+    "type": "object",
+    "required": ["path"],
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "Relative path from the Laravel project root (e.g. 'app/Models/Product.php', 'resources/views/livewire/product-table.blade.php', 'database/migrations/2024_01_01_000000_create_products_table.php')"
+      }
+    }
+  },
+  "examples": [
+    { "path": "app/Models/Product.php" },
+    { "path": "app/Livewire/ProductTable.php" },
+    { "path": "resources/views/livewire/product-table.blade.php" },
+    { "path": "database/migrations/2024_01_01_create_products_table.php" },
+    { "path": "app/Services/ProductService.php" }
+  ]
+}
