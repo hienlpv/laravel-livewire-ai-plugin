@@ -6,5 +6,5 @@
     "name": "hienlpv",
     "url": "https://github.com/hienlpv"
   },
-  "agents": ".github/agents"
+  "agents": "./agents"
 }
